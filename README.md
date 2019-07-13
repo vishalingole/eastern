@@ -1,4 +1,18 @@
-eastern
-=======
 
-A Symfony project created on July 13, 2019, 8:11 am.
+
+Salary Payment Date tool
+========================
+
+Setps :
+
+1. Install Symfony
+2. Git Clone https://github.com/vishalingole/eastern.git
+3. goto creted folder using cd <foldername>
+4. Composer install
+5. run following command to generate csv file from terminal
+  Command : php bin/console generate:payment-date-csv <csv file name> <year>
+  example : php bin/console generate:payment-date-csv paymentdate.csv 2019
+  
+  Note : can refer generated csv on git paymentdate.csv
+
+
